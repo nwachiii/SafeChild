@@ -16,32 +16,32 @@ html {
 
 body {
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header {
     position: relative;
     max-width: 100%;
     flex: 0 0 100%;
-    margin-top: 0;
+    top: 0;
     margin-bottom: 2em;
+    height: 544px;
+    box-shadow: rgba(224, 209, 209, 0.3);
 }
 
 .header-img {
-    position: absolute;
     max-width: 100%;
-    box-shadow: rgba(34, 34, 34, 0.3);
-    top: 0;
 }
 
 .header_cntnt-wrap {
     position: absolute;
     left: 10%;
     top: 0;
-    bottom: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    height: 900px;
+    justify-content: space-between;
+    height: 544px;
 }
 
 .color-text {
@@ -60,6 +60,8 @@ h1 {
     font-size: 36px;
     line-height: 43px;
     color: #FFFFFF;
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 
 .brand-logo h2 {
@@ -70,6 +72,11 @@ h1 {
     line-height: 42px;
     letter-spacing: 0.05em;
     color: #2AA2DF;
+}
+
+.notify_me-wrap {
+    margin-top: 10em;
+    align-self: flex-end;
 }
 
 .notify_me-wrap p {
@@ -83,14 +90,14 @@ h1 {
 
 .btn-submit {
     width: 90.29px;
-    height: 76px;
+    height: 56px;
     background: #2AA2DF;
     border-radius: 10px;
 }
 
-input {
-    width: 50.29px;
-    height: 36px;
+.input {
+    width: 300px;
+    height: 56px;
     border-radius: 10px;
 }
 
@@ -100,17 +107,19 @@ input {
     max-width: 39px;
 }
 
-.sec1 {
-    position: absolute;
-    top: -50%;
-    max-width: 90%;
-    margin-top: 3em;
+#sec1 {
+    position: relative;
+    margin-top: 25em;
+    max-width: 100%;
 }
 
 .elements {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h5 {

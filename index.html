@@ -13,31 +13,26 @@
     <header class="header">
         <img src="./assets/img/banner-img.jpg" alt="" class="header-img">
         <div class="header_cntnt-wrap">
-            <div class="brand-logo mb-4">
+            <div class="brand-logo">
                 <h2>Safe <br> Child</h2>
             </div>
             <div class="header-text mb-4">
                 <h1>Awesome App that keeps your child safe from danger</h1>
             </div>
-            <div class="notify_me-wrap mb-2">
+            <div class="notify_me-wrap mb-5">
                 <p>Get <span class="color-text">Notified</span> when released</p>
-                <form id="form" class="form-inline" action="./assets/app.php" method="POST">
-                    <div class="input-group mb-4">
-                        <input type="email" id="email" placeholder="your email" name="email" class="form-control rounded-right input-lg" required>
-                        <div class="invalid-feedback">
-                            Please enter a valid email.
-                        </div>
-                    </div>
-                    <button type="submit" target="_blank" class="btn btn-primary mb-2 btn-submit"><img src="./assets/img/arrow-right.svg" alt="" class="arrow-right"></button>
+                <form id="form" class="form-inline input-group" action="/assets/app.php" method="POST">
+                    <input type="email" id="email" placeholder="your email" name="email" class="input" required>
+                    <button type="submit" target="_blank" class="btn-sm btn-primary mx-3 mb-2 btn-submit"><img src="./assets/img/arrow-right.svg" alt="" class="arrow-right"></button>
                 </form>
             </div>
         </div>
     </header>
-    <!-- 
-    <section class="sec1">
+
+    <section id="sec1" class="sec1">
         <div class="elements">
             <div>
-                <img src="/assets/img/problem-img.png" alt="">
+                <img src="./assets/img/problem-img.png" alt="">
                 <h5>The Problem</h5>
                 <p><small>Exhausted Parents spending all day keeping their child safe</small> </p>
             </div>
@@ -47,12 +42,12 @@
                 <p><small>Giving parents more time for themselves</small> </p>
             </div>
             <div>
-                <img src="/assets/img/solution-img.png" alt="">
+                <img src="./assets/img/solution-img.png" alt="">
                 <h5>The Solution</h5>
                 <p><small>An app that alerts you when your child is in danger </small> </p>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <script src="./assets/js/script.js"></script>
 </body>
