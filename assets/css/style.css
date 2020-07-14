@@ -53,7 +53,7 @@ body {
     height: 129px;
 }
 
-h1 {
+.header-text h1 {
     font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -62,6 +62,16 @@ h1 {
     color: #FFFFFF;
     margin-top: 4em;
     margin-bottom: 4em;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
 }
 
 .brand-logo h2 {
@@ -80,12 +90,10 @@ h1 {
 }
 
 .notify_me-wrap p {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
     font-size: 24px;
     line-height: 40px;
     color: #FFFFFF;
+    text-align: left;
 }
 
 .btn-submit {
@@ -113,11 +121,20 @@ h1 {
     max-width: 100%;
 }
 
-.elements {
+.elements1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.elements2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 78%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -129,16 +146,7 @@ h5 {
     font-size: 20px;
     line-height: 40px;
     color: #252525;
-}
-
-small {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 40px;
-    color: #252525;
-    text-align: center;
+    margin-top: 1em;
 }
 
 .sec1-col {
@@ -151,8 +159,37 @@ small {
     padding: 20px;
 }
 
+.sec1-col p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 270px;
+    height: 80px;
+    color: #252525;
+    text-align: center;
+}
+
 .sec1-svg {
     max-width: 100%;
     width: 58.46px;
     height: 60px;
+}
+
+.section-title {
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #252525;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+
+/*---------------------------------------------*/
+#sec2 {
+    position: relative;
+    margin-top: 5em;
+    max-width: 100%;
 }
