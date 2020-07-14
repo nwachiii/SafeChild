@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeChild App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./assets/img/banner-img.jpg" alt="" class="header-img">
+        <div class="header_cntnt-wrap">
+            <div class="brand-logo mb-4">
+                <h2>Safe <br> Child</h2>
+            </div>
+            <div class="header-text mb-4">
+                <h1>Awesome App that keeps your child safe from danger</h1>
+            </div>
+            <div class="notify_me-wrap mb-2">
+                <p>Get <span class="color-text">Notified</span> when released</p>
+                <form id="form" class="form-inline" action="./assets/app.php" method="POST">
+                    <div class="input-group mb-4">
+                        <input type="email" id="email" placeholder="your email" name="email" class="form-control rounded-right input-lg" required>
+                        <div class="invalid-feedback">
+                            Please enter a valid email.
+                        </div>
+                    </div>
+                    <button type="submit" target="_blank" class="btn btn-primary mb-2 btn-submit"><img src="./assets/img/arrow-right.svg" alt="" class="arrow-right"></button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- 
+    <section class="sec1">
+        <div class="elements">
+            <div>
+                <img src="/assets/img/problem-img.png" alt="">
+                <h5>The Problem</h5>
+                <p><small>Exhausted Parents spending all day keeping their child safe</small> </p>
+            </div>
+            <div>
+                <img src="./assets/img/idea-img.png" alt="">
+                <h5>The Idea</h5>
+                <p><small>Giving parents more time for themselves</small> </p>
+            </div>
+            <div>
+                <img src="/assets/img/solution-img.png" alt="">
+                <h5>The Solution</h5>
+                <p><small>An app that alerts you when your child is in danger </small> </p>
+            </div>
+        </div>
+    </section> -->
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

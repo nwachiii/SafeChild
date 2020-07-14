@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Poppins:wght@300;500;600&family=Rubik:wght@700&display=swap');
+
+/* font-family: 'Modak', cursive;
+font-family: 'Poppins', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+.header-img {
+    position: absolute;
+    max-width: 100%;
+    box-shadow: rgba(34, 34, 34, 0.3);
+    top: 0;
+}
+
+.header_cntnt-wrap {
+    position: absolute;
+    left: 10%;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 900px;
+}
+
+.color-text {
+    color: #2AA2DF;
+}
+
+.header-text {
+    max-width: 429px;
+    height: 129px;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.brand-logo h2 {
+    font-family: Modak;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27.7073px;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    color: #2AA2DF;
+}
+
+.notify_me-wrap p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.btn-submit {
+    width: 90.29px;
+    height: 76px;
+    background: #2AA2DF;
+    border-radius: 10px;
+}
+
+input {
+    width: 50.29px;
+    height: 36px;
+    border-radius: 10px;
+}
+
+.arrow-right {
+    color: #FFFFFF;
+    height: 20.15px;
+    max-width: 39px;
+}
+
+.sec1 {
+    position: absolute;
+    top: -50%;
+    max-width: 90%;
+    margin-top: 3em;
+}
+
+.elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    color: #252525;
+}
+
+small {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    color: #252525;
+}
