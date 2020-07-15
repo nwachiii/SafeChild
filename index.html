@@ -10,7 +10,7 @@
     <title>SafeChild App</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="https://use.fontawesome.com/20a889db64.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 
 <body>
@@ -20,15 +20,15 @@
             <div class="brand-logo">
                 <h2>Safe <br> Child</h2>
             </div>
-            <div class="header-text mb-4">
+            <div class="header-text">
                 <h1>Awesome App that keeps your child safe from danger</h1>
             </div>
             <div class="notify_me-wrap">
-                <p>Get <span class="color-text">Notified</span> when released</p>
-                <form id="form" class="form-inline input-group" action="/assets/app.php" method="POST">
-                    <input type="email" id="email" placeholder="your email" name="email" class="input" required>
-                    <button type="submit" target="_blank" class="btn-sm btn-primary mx-3 mb-2 btn-submit"><img src="./assets/img/arrow-right.svg" alt="" class="arrow-right"></button>
-                </form>
+            <p>Get <span class="color-text">Notified</span> when released</p>
+            <form id="form" class="form-inline input-group" action="/assets/app.php" method="POST">
+                <input type="email" id="email" name="email" placeholder=" your email"  class="input" required>
+                <button class="btn btn-primary mx-3 btn-submit"><span><i class="fa fa-long-arrow-right"  style="color: #FFFFFF; font-size: 30px;"></i></span></button>
+            </form>
             </div>
         </div>
     </header>
@@ -105,10 +105,10 @@
 
     <section class="sec4">
         <div class="sec4-elements">
+            <label for="email"> <p>Get <span class="color-text">Notified</span> when released</p></label>
             <form id="form" class="form-inline input-group" action="/assets/app.php" method="POST">
-                <label for="fname">Get <span class="color-text">Notified</span> when released</label>
-                <input type="email" id="email" name="email" placeholder="your email" required>
-                <button><span><i class="fas fa-long-arrow-alt-right"></i></span></button>
+                <input type="email" id="email" name="email" placeholder=" your email"  class="input" required>
+                <button class="btn btn-primary mx-3 btn-submit"><span><i class="fa fa-long-arrow-right"  style="color: #FFFFFF; font-size: 30px;"></i></span></button>
             </form>
         </div>
     </section>
