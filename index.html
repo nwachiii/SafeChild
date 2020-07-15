@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <!-- The header section contains the background image, brand logo and the get-notified form input -->
     <header class="header">
         <div class="overlay"></div>
         <img src="./assets/img/banner-img.png" alt="" class="header-img">
@@ -34,6 +35,7 @@
         </div>
     </header>
 
+<!-- section 1 contains to sub sections: The problem, idea and solution markup goes into elements1; elements2 section has the overview area -->
     <section id="sec1" class="sec1">
         <div class="elements1">
             <div class="sec1-col">
@@ -59,6 +61,7 @@
         </div>
     </section>
 
+<!-- How it works, goes into section 2 (sec2) -->
     <section id="sec2" class="sec2">
         <h1 class="section-title">How It Works</h1>
         <div class="sec2-elements">
@@ -66,13 +69,13 @@
                 <div class="col-sm-12 col-md-6 col-lg-8 sec2-text">
                     <p>First, you have to sign up, and connect your phone to the SCW placed on the wrist of the child. Don't bother about battery durabilty, The wrist band is powered by solar panels</p>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 text-center">
-                    <img class="phone1" src="./assets/img/iPhone1.png" alt="">
+                <div class="col-sm-12 col-md-6 col-lg-4 text-center"> 
+                    <img class="phone1 pop-up" src="./assets/img/iPhone1.png" alt="">
                 </div>
             </div>
             <div class="sec2-row row row2">
                 <div class="col-sm-12 col-md-6 col-lg-4 text-center">
-                    <img class="phone2" src="./assets/img/iPhone2.png" alt="">
+                    <img class="phone2 pop-up" src="./assets/img/iPhone2.png" alt="">
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-8 sec2-text">
                     <p>Set up your profile, by providing us with information about yourself and child. This would give you more control, and also help us provide you with better service</p>
@@ -84,26 +87,29 @@
                     <p>Finally, set your notification setting and volume to your preference. SafeChild App rings out loudly by default, and pop up alerts when your child is in danger.<br> How easy is that!</p>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 text-center">
-                    <img class="phone3" src="./assets/img/iPhone3.png" alt="">
+                    <img class="phone3 pop-up" src="./assets/img/iPhone3.png" alt="">
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- The advanced section goes into section 3(sec3) -->
     <section id="sec3" class="sec3">
         <h1 class="section-title">Advanced Features</h1>
         <div class="sec3-elements row">
             <div class="iPhone4 col-sm-12 col-md-6 col-lg-4 text-center">
-                <img src="./assets/img/iPhone4.png" alt="">
+                <img class="pop-up" src="./assets/img/iPhone4.png" alt="">
             </div>
             <div class="iPhone5 col-sm-12 col-md-6 col-lg-4 text-center">
-                <img src="./assets/img/iPhone5.png" alt="">
+                <img class="pop-up" src="./assets/img/iPhone5.png" alt="">
             </div>
             <div class="iPhone6 col-sm-12 col-md-12 col-lg-4 text-center">
-                <img src="./assets/img/iPhone6.png" alt="">
+                <img class="pop-up" src="./assets/img/iPhone6.png" alt="">
             </div>
         </div>
     </section>
 
+<!-- The footer section goes into section 4 (sec4) -->
     <section class="sec4">
         <div class="sec4-elements">
             <label for="email"> <p>Get <span class="color-text">Notified</span> when released</p></label>
@@ -114,6 +120,23 @@
         </div>
     </section>
 
+<!-- START MODAL - All of the pop-up modals goes in here -->
+    <div class="modal fade" id="iPhone1" >
+        <div class="modal-dialog">
+           <div class="modal-content">
+               <img src="" alt=""/ class="img-responsive" style="width: 100%;">
+           </div> 
+        </div>
+    </div>
+
+<!-- END MODAL - All of the pop-up modals end up here -->
+
+
+
+    <!-- My scripts include; vanilla JS, Jquery CDN, Bootstrap popper JS CDN, and GSAP CDN -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 

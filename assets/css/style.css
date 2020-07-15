@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&family=Poppins:wght@300;500;600&family=Rubik:wght@700&display=swap');
 
+/*-------------------UNIVERSAL STYLING----------------------------*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,6 +18,8 @@ body {
     flex-wrap: wrap;
 }
 
+/*-----------------------------------------------*/
+/*---------------HEADER STYLING---------------------*/
 .header {
     position: relative;
     max-width: 100%;
@@ -72,7 +75,7 @@ body {
     font-size: 36px;
     line-height: 43px;
     color: #FFFFFF;
-    margin-top: 3em;
+    margin-top: 2em;
     margin-bottom: 4em;
 }
 
@@ -131,7 +134,8 @@ p {
     font-size: 30px;
 }
 
-/*--------------------------------*/
+/*------------------------------------*/
+/*-----------------SECTION 1---------------*/
 #sec1 {
     position: relative;
     margin-top: 6em;
@@ -208,8 +212,8 @@ h5 {
     text-align: center;
 }
 
-
 /*---------------------------------------------*/
+/*--------------------SECTION 2-------------------------*/
 
 #sec2 {
     position: relative;
@@ -235,8 +239,8 @@ h5 {
     margin-bottom: 2em;
 }
 
-
-/*-------------------------------------------------*/
+/*-------------------------------------------------------*/
+/*-----------------------SECTION 3--------------------------*/
 
 .sec3 {
     position: relative;
@@ -256,8 +260,12 @@ h5 {
     margin-bottom: 2em;
 }
 
+.pop-up {
+    cursor: pointer;
+}
 
-/* ------------------------------------------ */
+/*------------------------------------------------*/
+/* -----------------SECTION 4------------------------- */
 
 .sec4 {
     position: relative;
@@ -279,7 +287,12 @@ h5 {
     max-width: 80%;
     padding: 10px;
 }
-
+/*----------------------------------------------*/
+/*------------------MODAL-----------------------*/
+.modal-content {
+    background: #0000008a;
+}
+/*-------------------------------------*/
 
 /* On screens that are 992px wide or less*/
 @media screen and (max-width: 992px) {
