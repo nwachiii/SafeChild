@@ -37,9 +37,10 @@ body {
 }
 
 .header-img {
-    width: 1400px;
+    width: 100%;
     justify-self: stretch;
-    height: auto;
+    height: 100%;
+    opacity: 1;
 }
 
 
@@ -50,12 +51,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 544px;
+    height: auto;
     z-index: 1;
 }
 
 .color-text {
     color: #2AA2DF;
+    font-weight: 900;
 }
 
 .header-text {
@@ -70,7 +72,7 @@ body {
     font-size: 36px;
     line-height: 43px;
     color: #FFFFFF;
-    margin-top: 4em;
+    margin-top: 3em;
     margin-bottom: 4em;
 }
 
@@ -79,7 +81,7 @@ p {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 40px;
+    line-height: 43px;
     text-align: center;
     color: #333333;
 }
@@ -88,8 +90,8 @@ p {
     font-family: 'Modak', cursive;
     font-style: normal;
     font-weight: normal;
-    font-size: 27.7073px;
-    line-height: 42px;
+    font-size: 30.7073px;
+    line-height: 40px;
     letter-spacing: 0.05em;
     color: #2AA2DF;
 }
@@ -97,7 +99,7 @@ p {
 .notify_me-wrap {
     align-self: flex-end;
     justify-self: flex-start;
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 
 .notify_me-wrap p {
@@ -132,7 +134,7 @@ p {
 /*--------------------------------*/
 #sec1 {
     position: relative;
-    margin-top: 5em;
+    margin-top: 6em;
     max-width: 100%;
 }
 
@@ -152,6 +154,10 @@ p {
     max-width: 80%;
     margin-right: auto;
     margin-left: auto;
+}
+
+.elements2 h1 {
+    margin-bottom: 2em;
 }
 
 h5 {
@@ -225,7 +231,8 @@ h5 {
 }
 
 .sec2-row {
-    margin: 2em 0;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 
@@ -234,6 +241,7 @@ h5 {
 .sec3 {
     position: relative;
     max-width: 100%;
+    margin-bottom: 2em;
 }
 
 .sec3-elements {
@@ -242,6 +250,10 @@ h5 {
     padding: 10px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.sec3 h1 {
+    margin-bottom: 2em;
 }
 
 
@@ -256,7 +268,7 @@ h5 {
     justify-content: center;
     align-items: center;
     background: #EBF6F5;
-    margin-top: 2em;
+    margin-top: 4em;
 }
 
 .sec4-elements {
@@ -269,12 +281,8 @@ h5 {
 }
 
 
-
 /* On screens that are 992px wide or less*/
 @media screen and (max-width: 992px) {
-    .brand-logo h2 {
-        margin-top: -2em;
-    }
     .header_cntnt-wrap {
         justify-content: center;
     }
