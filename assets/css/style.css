@@ -12,6 +12,7 @@ html {
 body {
     margin: 0;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -113,7 +114,7 @@ p {
 
 #sec1 {
     position: relative;
-    margin-top: 25em;
+    margin-top: 5em;
     max-width: 100%;
 }
 
@@ -215,10 +216,10 @@ h5 {
 
 .sec3-elements {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     max-width: 80%;
     padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
