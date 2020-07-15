@@ -329,6 +329,7 @@ h5 {
     }
     .header-text h1 {
         font-size: 23.4228px;
+        line-height: 40px;
         margin-top: 3em;
     }
     .notify_me-wrap {
@@ -365,7 +366,7 @@ h5 {
 
     p {
         font-size: 14px;
-        line-height: 20px;
+        line-height: 40px;
     }
     
     .header {
