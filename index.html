@@ -1,3 +1,6 @@
+<!-- figma prototype below -->
+<!-- https://www.figma.com/file/7xE6axLmENxLLzpNo3jlV4/Nwachi?node-id=0%3A1 -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,11 +10,12 @@
     <title>SafeChild App</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://use.fontawesome.com/20a889db64.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <img src="./assets/img/banner-img.jpg" alt="" class="header-img">
+        <img src="./assets/img/banner-img.png" alt="" class="header-img">
         <div class="header_cntnt-wrap">
             <div class="brand-logo">
                 <h2>Safe <br> Child</h2>
@@ -49,37 +53,59 @@
         </div>
         <div class="elements2">
             <h1 class="section-title">Overview</h1>
-            <p>SafeChild  guarantee’s absolute protection of children, by alerting when child is in danger. It does this using a high tech band, which is stripped to the child. This watch senses and monitors the Child’s Patterns.</p>
+            <p>SafeChild App is built with high-tech sensors that detects any form of danger within a distance of 20 - 100metres; It provides you or your child's guardian with up-to-date information about the general wellbeing of you child<br> What if you
+                have more than one child..? We got you! Kindly place an order for extra bands and connect with the same app</p>
         </div>
     </section>
 
     <section id="sec2" class="sec2">
         <h1 class="section-title">How It Works</h1>
         <div class="sec2-elements">
-            <div class="sec2-row">
-                <div>
-                    <p>First sign up and register into the app, and connect you phone to the wrist band of the child, then set up your profile, by providing us with information about yourself and child.</p>
+            <div class="sec2-row row">
+                <div class="col-sm-12 col-md-6 col-lg-8 sec2-text">
+                    <p>First, you have to sign up, and connect your phone to the wrist band of the child. Don't bother about battery durabilty, The wrist band is powered by solar panels</p>
                 </div>
-                <div>
-                    <img class="phone1" src="" alt="">
-                </div>
-            </div>
-            <div class="sec2-row">
-                <div>
-                    <p>Child care app then provides with information about the general wellbeing of you child</p>
-                </div>
-                <div>
-                    <img class="phone2" src="" alt="">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img class="phone1" src="./assets/img/iPhone1.png" alt="">
                 </div>
             </div>
-            <div class="sec2-row">
-                <div>
-                    <p>Finally update your notification setting to the sound you prefer because SafeChild app will ring aloud and pop up alerts when you child is in danger.</p>
+            <div class="sec2-row row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img class="phone2" src="./assets/img/iPhone2.png" alt="">
                 </div>
-                <div>
-                    <img class="phone3" src="" alt="">
+                <div class="col-sm-12 col-md-6 col-lg-8 sec2-text">
+                    <p>Set up your profile, by providing us with information about yourself and child. This would give you more control, and also help us provide you with better service</p>
+
                 </div>
             </div>
+            <div class="sec2-row row">
+                <div class="col-sm-12 col-md-6 col-lg-8 sec2-text">
+                    <p>Finally, set your notification setting and volume to your preference. SafeChild App rings out loudly by default, and pop up alerts when your child is in danger.<br> How easy is that!</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img class="phone3" src="./assets/img/iPhone3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sec3" class="sec3">
+        <h1 class="section-title">Advanced Features</h1>
+        <div class="sec3-elements">
+            <div class="iPhone1"><img src="./assets/img/iPhone4.png" alt=""></div>
+            <div class="iPhone2"><img src="./assets/img/iPhone5.png" alt=""></div>
+            <div class="iPhone3"><img src="./assets/img/iPhone6.png" alt=""></div>
+        </div>
+    </section>
+
+    <section class="sec4">
+        <div class="sec4-elements">
+            <form id="form" class="form-inline input-group" action="/assets/app.php" method="POST">
+                <label for="fname">Get <span class="color-text">Notified</span> when released</label>
+                <input type="email" id="email" name="email" placeholder="your email" required>
+                <button><span><i class="fas fa-long-arrow-alt-right"></i></span></button>
+            </form>
         </div>
     </section>
 
