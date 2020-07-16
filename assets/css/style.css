@@ -344,6 +344,7 @@ h5 {
     }
     .elements1 {
         flex-wrap: wrap;
+        padding-bottom: 5px;
     }
     .elements2 {
         flex-wrap: wrap;
@@ -363,7 +364,10 @@ h5 {
     .sec4-elements {
         max-width: 100%;
     }
-
+    
+    .sec1-col {
+        margin-bottom: 3em;
+    }
 
 }
 
@@ -401,8 +405,11 @@ h5 {
         width: 100%;
         align-self: center;
     }
-    .iPhone4 {
+    .iPhone4, .iPhone5 {
         margin-bottom: 2em;
+    }
+    .iPhone5, .iPhone6 {
+        margin-top: 2em;
     }
     .section-title {
         font-size: 25px;
@@ -414,13 +421,17 @@ h5 {
         font-size: 14px;
         line-height: 40px;
     }
-    
-    .header {
-        margin-bottom: 1em;
-    }
 
     .sec2-text {
         margin-bottom: 2em;
+        text-align: center !important;
+    }
+    
+    .sec2 .section-title {
+        margin-bottom: 0;
+    }
+    .color-text {
+        font-size: 20px;
     }
     
     .row2 {
