@@ -5,4 +5,14 @@ $ (document).ready(function(){
         $('.modal').modal('show');
     })
 
+
 })
+
+
+    var animate = function(text){
+    	var textSplit = SplitText.create(text, {type: "chars, words"});
+    	return
+    	gsap.from(textSplit.chars, {duration:0.1, visibility:"hidden", stagger: 0.1});
+    };
+
+    animate('.header-text');
