@@ -21,10 +21,6 @@
             echo "registration failed";
         }
 
-        $conn->close();
-
-        header("refresh:2; url=index.html");
-
     }
 
 ?>
