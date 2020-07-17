@@ -223,10 +223,7 @@ h5 {
     margin-bottom: 1em;
     text-align: center;
 }
-/*
-.elements1 > .sec1-col {
-    margin-right: 1em;
-}*/
+
 
 /*---------------------------------------------*/
 /*--------------------SECTION 2-------------------------*/
@@ -234,6 +231,12 @@ h5 {
 #sec2 {
     position: relative;
     max-width: 100%;
+    background: url('../img/howitworks-bkgrd.png');
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 .sec2-text {
@@ -380,7 +383,26 @@ h5 {
     
     .sec1-col {
         margin-bottom: 3em;
+        padding: 20px;
+        margin-right: auto;
+        margin-left: auto;
     }
+    .iPhone4, .iPhone5 {
+        margin-bottom: 2em;
+    }
+    .iPhone5, .iPhone6 {
+        margin-top: 2em;
+    }
+
+    .sec2-text {
+        margin-bottom: 2em;
+        text-align: center !important;
+    }
+
+    .sec2 {
+    background-repeat: repeat;
+    }
+
 
 }
 
@@ -450,6 +472,16 @@ h5 {
     .row2 {
         display: flex;
        flex-direction: column-reverse !important;
+    }
+
+    .pop-up:hover {
+        transform: scale(1.08);
+    }
+    
+    .modal-content {
+        width: 80%;
+        padding: auto 30px;
+        margin: 0 auto;
     }
 
 }

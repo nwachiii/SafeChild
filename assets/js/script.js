@@ -8,20 +8,30 @@ $ (document).ready(function(){
 
 gsap.from('.header', {duration: 3, y: '-100%', ease: 'bounce'})
 gsap.from('.header_cntnt-wrap', {duration: 3, opacity: 0, delay: 4, stagger: 5})
-gsap.from('.sec1', {duration: 1, x: '-100vw', delay: 1, ease: 'power2.in'})
 
 //use scroll magic
-gsap.fromTo('.sec3', {opacity: 0, scale:0, rotation:720}, {duration: 1, delay:1, opacity:1, scale:1, rotation: 0})
+var ctrl = new ScrollMagic.Controller({
+	globalScenOptions: {
+		triggerHook: 'onLeave'
+	}
+});
+
+
+const tl = gsap.timeline();
+tl.fromTo('.iPhone4', {opacity: 0, scale:0, rotation:720}, {duration: 5, delay:3, opacity:1, scale:1, rotation: 0});
+tl.fromTo('.iPhone5', {opacity: 0, scale:0, rotation:1440}, {duration: 5, delay:2, opacity:1, scale:1, rotation: 0});
+tl.fromTo('.iPhone6', {opacity: 0, scale:0, rotation:720}, {duration: 5, delay:1, opacity:1, scale:1, rotation: 0});
+
+ScrollTrigger.create({
+	animation: tl,
+	trigger: 'sec3-elements',
+	start: '+=4000',
+	scrub: true,
+	pin:true,
+	anctipatePin: 1,
+	  });
+
 
 }) 
-gsap.registerPlugin(ScrollTrigger);
 
-
-    // var animate = function(text){
-    // 	var textSplit = SplitText.create(text, {type: "chars, words"});
-    // 	return
-    // 	gsap.from(textSplit.chars, {duration:0.1, visibility:"hidden", stagger: 0.1});
-    // };
-
-    // animate('.header-text');
 
