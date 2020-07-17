@@ -144,7 +144,7 @@ p {
 .elements1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     max-width: 80%;
     margin: 4em auto; 
     padding-bottom: 40px;
@@ -223,6 +223,10 @@ h5 {
     margin-bottom: 1em;
     text-align: center;
 }
+/*
+.elements1 > .sec1-col {
+    margin-right: 1em;
+}*/
 
 /*---------------------------------------------*/
 /*--------------------SECTION 2-------------------------*/
