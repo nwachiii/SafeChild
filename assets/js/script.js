@@ -5,9 +5,30 @@ $ (document).ready(function(){
         $('.modal').modal('show');
     });
 
-
+//header animation
 gsap.from('.header', {duration: 3, y: '-100%', ease: 'bounce'})
 gsap.from('.header_cntnt-wrap', {duration: 3, opacity: 0, delay: 4, stagger: 5})
+
+
+//moving text animation
+const text = document.getElementById("anim-text");
+const prog = "SafeChild  guarantee’s absolute protection of children, by alerting parents or gurdians when child is in danger. It does this using a high tech band, which is stripped to the child. This watch senses and monitors the Child’s Patterns.";
+let idx = 2;
+
+setInterval(writeText, 100);
+
+function writeText() {
+    text.innerText = prog.slice(0, idx)
+	
+	idx++;
+	
+	if(idx > prog.length){
+      idx = 1;
+    }
+
+}
+
+
 
 //use scroll magic
 var ctrl = new ScrollMagic.Controller({
