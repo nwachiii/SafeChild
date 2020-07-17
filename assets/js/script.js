@@ -12,7 +12,7 @@ gsap.from('.header_cntnt-wrap', {duration: 3, opacity: 0, delay: 4, stagger: 5})
 
 //moving text animation
 const text = document.getElementById("anim-text");
-const prog = "SafeChild App guarantee’s absolute protection of children, by alerting parents or gurdians when child is in danger. It does this using a high tech band, which is stripped to the child. This watch senses and monitors the Child’s Patterns.";
+const prog = "SafeChild App guarantee’s absolute protection of children, by alerting parents or guardians when your child is in danger. It does this using a high tech band, which is stripped to the child. This watch senses and monitors the Child’s Patterns.";
 let idx = 2;
 
 setInterval(writeText, 80);
